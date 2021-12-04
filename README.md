@@ -3,16 +3,16 @@
 ## Change the file config/mail.php
 ## choose from where you want send your email
 
-'from' => [
-    'address' => env('MAIL_FROM_ADDRESS', 'email_address_from_somewhere@email.com'),
-    'name' => env('MAIL_FROM_NAME', 'Joanne Doe'),
-],
+		'from' => [
+		    'address' => env('MAIL_FROM_ADDRESS', 'email_address_from_somewhere@email.com'),
+		    'name' => env('MAIL_FROM_NAME', 'Joanne Doe'),
+		],
 
 ## create an acount at mailgun.com and use you domain and secret at .env
 
-MAIL_MAILER=mailgun
-MAILGUN_DOMAIN=PUT_YOUR_MAILGUN_DOMAIN_HERE
-MAILGUN_SECRET=PUT_YOUR_MAILGUN_SECRET_HERE
+		MAIL_MAILER=mailgun
+		MAILGUN_DOMAIN=PUT_YOUR_MAILGUN_DOMAIN_HERE
+		MAILGUN_SECRET=PUT_YOUR_MAILGUN_SECRET_HERE
 
 ## for tests I just created a route that sends automatically by hard code, 
 ## you can create a form and do something better the way you'd like =)
