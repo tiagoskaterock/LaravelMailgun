@@ -1,7 +1,7 @@
 ## THIS SENDS EMAILS USING PHP, LARAVEL AND MAILGUN
 
+### Choose from where you want send your email
 ### Change the file 
-### choose from where you want send your email
 ## config/mail.php
 
 		'from' => [
@@ -9,7 +9,7 @@
 		    'name' => env('MAIL_FROM_NAME', 'Joanne Doe'),
 		],
 
-### create an acount at mailgun.com and use you domain and secret at 
+### create an acount at mailgun.com and use your domain and secret at 
 ## .env
 
 		MAIL_MAILER=mailgun
